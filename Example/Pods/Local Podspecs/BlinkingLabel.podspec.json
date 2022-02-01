@@ -1,0 +1,22 @@
+{
+  "name": "BlinkingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of BlinkingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/viacheslavplatonov/BlinkingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "viacheslavplatonov": "slava.p12@yandex.ru"
+  },
+  "source": {
+    "git": "https://github.com/viacheslavplatonov/BlinkingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BlinkingLabel/Classes/**/*"
+}
