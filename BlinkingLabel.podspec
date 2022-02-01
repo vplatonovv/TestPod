@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Subclass of UILabel that provides blinking.'
   s.description      = 'This CocoaPod provides the ability to use a UILabel which can be launched and the UILabel to flash.'
-  s.homepage         = 'https://github.com/viacheslavplatonov/TestPod'
+  s.swift_version    = '5.4'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,14 +23,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/viacheslavplatonov/BlinkingLabel'
+  s.homepage         = 'https://github.com/viacheslavplatonov/TestPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'viacheslavplatonov' => 'slava.p12@yandex.ru' }
   s.source           = { :git => 'https://github.com/viacheslavplatonov/BlinkingLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'BlinkingLabel/Classes/**/*'
   
