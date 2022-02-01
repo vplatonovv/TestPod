@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Subclass of UILabel that provides blinking.'
   s.description      = 'This CocoaPod provides the ability to use a UILabel which can be launched and the UILabel to flash.'
-  s.homepage         = 'github'
+  s.homepage         = 'https://github.com/viacheslavplatonov/TestPod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
